@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files`.split($/).reject { |fn| fn.start_with? "spec" }
 
-  s.add_runtime_dependency 'rails', '~> 4.2', '>= 4.2.1'
+  s.add_runtime_dependency 'rails', '>= 5.2'
   s.add_runtime_dependency 'hashids', '~> 1.0', '>= 1.0.2'
   s.add_runtime_dependency 'paperclip'
   s.add_runtime_dependency 'responders', '~> 2.1', '>= 2.1.0'
